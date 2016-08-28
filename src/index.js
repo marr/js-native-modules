@@ -1,7 +1,8 @@
-import React, { Component } from 'react'
 
-export default class extends Component {
-  render() {
-    return <div>My cool React component</div>
+module.exports = React.createClass({
+  render: function() {
+    return (
+      <div>My cool React component: {moment().calendar()}</div>
+    )
   }
-}
+})
