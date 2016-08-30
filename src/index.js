@@ -1,3 +1,4 @@
+import moment from 'moment'
 import React from 'react'
 
 module.exports = React.createClass({
