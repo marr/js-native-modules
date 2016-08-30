@@ -1,8 +1,8 @@
 import moment from 'moment'
-import React from 'react'
+import React, { Component } from 'react'
 
-module.exports = React.createClass({
-  render: function() {
+export default class Mod extends Component {
+  render() {
     return <p>react module says its: {moment().calendar()}</p>
   }
-})
+}
